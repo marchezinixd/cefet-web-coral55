@@ -1,52 +1,59 @@
-﻿<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Lanchonete do Coral 55</title>
-  <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-  <!-- substitua os elementos não semânticos por elementos semânticos -->
-  <div id="recipiente">
-    <header>
-      <h1>Lanchonete do Coral 55</h1>
-      <h2>O melhor <em>açaí</em> marítimo da região</h2>
-    <header>
-    <section>
-      <aside>
-        <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
-        <h2 id="cardapiot">Cardápio</h2>
-        <img src="images/bolhas.png" alt="Bolhas de ar">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
-          coquetel de algas">
-      </aside>
-      <div id="cardapio">
-        <h3>Salgados</h3>
-        <!--
-          encontre uma forma para dispor os itens do cardápio com seus
-          nomes à esquerda e os preços à direita
-        -->
-        Pão de queijo de égua marinha $ 0,99
-        Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
-        <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
-        Plâncton do pacífico (importado) marinado $ 19,99
-        <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
-        Coquetel de algas (kids) $ 5,49
+﻿  <!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lanchonete do Coral 55</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+      <!-- substitua os elementos não semânticos por elementos semânticos -->
+    <div id="recipiente">
+      <header>
+        <h1>Lanchonete do Coral 55</h1>
+        <h2 id="acai">O melhor <em>açaí</em> marítimo da região</h2>
+      <header>
+      <section>
+        <aside>
+          <div id="siri">
+            <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
+        </div>
+          <h2 id="cardapiot">Cardápio</h2>
+          <div id="bubbles">
+            <img src="images/bolhas.png" alt="Bolhas de ar">
+          </div>
+          <div id="peixe">
+            <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
+              coquetel de algas">
+          </div>
+        </aside>
+        <div id="cardapio">
+          <h3>Salgados</h3>
+          <!--
+            encontre uma forma para dispor os itens do cardápio com seus
+            nomes à esquerda e os preços à direita
+          -->
+          <div id=tabelap> Pão de queijo de égua marinha <spam id="preco">$ 0,99 </div>
+          <div id=tabelap>Hamburguer de microinsetos com salada de algas ou de musgo <spam id="preco">$ 2,49</div>
+          <h3><b>Pratos</b></h3>
+          <div id=tabelap>Açaí do manguezal 500ml <spam id="preco">$ 4,99</div>
+          <div id=tabelap>Açaí marítimo (assinatura) 500ml <spam id="preco">$ 6,99</div>
+          <div id=tabelap>Algas verdes fritas <spam id="preco">$ 7,49</div>
+          <div id=tabelap>Plâncton ao molho de maracujá <spam id="preco">$ 12,49</div>
+          <div id=tabelap>Plâncton do pacífico (importado) marinado <spam id="preco">$ 19,99</div>
+          <h3><strong>Bebes</strong></h3>
+          <div id=tabelap>Água temperada <spam id="preco">(cortesia)</div>
+          <div id=tabelap>Água doce importada (copo) <spam id="preco">$ 29,49</div>
+          <div id=tabelap>Coquetel de algas (alcoólico) <spam id="preco">$ 8,99</div>
+          <div id=tabelap>Coquetel de algas (kids) <spam id="preco">$ 5,49</div>
+        </div>
+      </section>
+      <footer>
+        <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
       </div>
-    </section>
-    <footer>
-      <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
+    </footer>
+    <div id="ticket">
+      <img src="images/ticket.png" alt="Cupom de desconto">
     </div>
-  </footer>
-  <div id="ticket">
-    <img src="images/ticket.png" alt="Cupom de desconto">
-  </div>
-</body>
-</html>
+    <script src='js/bubbles.js'></script>
+  </body>
+  </html>

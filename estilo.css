@@ -1,73 +1,136 @@
-/* Importa o arquivo CSS que importa a fonte Ravie */
-@import "fonts/ravie.css";
-h1{
-  font-family: "Ravie";
-  font-size: 36px;
-  color: #e90c0c;
-  float: right;
-  margin-right: 50px;
-  margin-top: 30px;
-  margin-bottom: 0px;
+	/* Importa o arquivo CSS que importa a fonte Ravie */
+	@import "fonts/ravie.css";
+
+	h1{
+	  font-family: "Ravie";
+	  font-size: 36px;
+	  color: #e90c0c;
+	  float: right;
+	  margin-right: 40px;
+	  margin-top: 30px;
+	  margin-bottom: 0px;
 
 
-}
-h2 > em{
+	}
+	h2 > em{
 
-  color:#d027aa;
-  font-style: normal;
-}
-h2{
-  font-family: "Trebuchet MS", sans-serif;
-  font-size: 24px;
-  color: #333;
-  float: right;
-}
-aside >h2{
-  font-family: : Verdana, sans-serif;
-  font-size: 48px;
-  color: #333;
-  transform: rotate(-90deg);
-  margin-left: 200px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  float: right;
+	  color:#d027aa;
+	  font-style: normal;
+	}
+	h2{
+	  font-family: "Trebuchet MS";
+	  font-size: 24px;
+	  color: #333;
+	  float: right;
+	  
+	  margin: 10px 40px 10px 0px;
 
+	}
 
-
-}
-h3{
-  font-family: Verdana, sans-serif;
-  font-size: 18px;
-  color: #333;
-
-
-}
-
-
-#cardapio{
-  width: 646px;
-
-  font-family: Verdana;
-  font-size: 14px;
-  color: #333;
-  border: solid 1px #aac0ae;
-  float: right;
-  position: relative;
+	aside >h2{
+	  font-family: : Verdana, sans-serif;
+	  font-size: 48px;
+	  margin: 150px 0px 100px 0px;
+	  transform: rotate(-90deg) translatey(-40px);
+	  float: left;
+	  font-weight: bold;
 
 
 
-}
-#recipiente{
-  background-image: linear-gradient(#f6f1b2,#4599b2);
-  width: 800px;
-  margin: 0 auto;
-}
-aside{
-  width: 154px;
-  position: absolute;
+	}
+	h3{
+	  font-family: sans-serif;
+	  font-size: 18px;
+	  color: #333;
+	  font-weight: bold;
 
-}
-footer{
-  clear: right;
 
-}
+	}
+
+
+	#cardapio{
+	  width: 646px;
+	  box-sizing: border-box;
+	  font-family: Verdana;
+	  background-color: rgba(255, 255, 255, 0.2);
+	  border: solid 1px #aac0ae;
+	  float: right;
+	  position: relative;
+	  width: 646px;
+	  padding: 15px;
+	  display: inline-block;
+	  line-height: 2em;
+	  margin-bottom: 0px;
+	  color: #333;
+
+
+	}
+
+	#preco{
+	  float: right;
+
+	}
+	#tabelap{
+	  display: block;
+	  width: 100%;
+
+	}
+	#recipiente{
+	  background-image: linear-gradient(#f6f1b2,#4599b2);
+	  width: 800px;
+	  margin: 0 auto;
+	}
+	aside{
+	  width: 154px;
+	  position: absolute;
+
+	}
+	footer{
+	  clear: right;
+
+	}
+	#ticket{
+	  position: absolute;
+	  padding-top: ;
+	}
+	footer{
+	  clear: right;
+
+	}
+	footer img{
+	  position: relative;
+	  left: 670px;
+	  padding: 46px 18px 25px 0px;
+
+	}
+	#siri{
+
+	  margin-left: -10px;
+	  margin-bottom: 40px;
+
+	}
+	#peixe{
+	  margin-left: -44px;
+
+
+
+	}
+	#bubbles{
+	  margin-right: 20px;
+	  float: right;
+	  margin-bottom: 14px;
+	}
+	#ticket {
+	  top: 45%;
+	  position: fixed;
+	  display: block;
+	  left: -140px;
+	  transition: left 800ms ease-out;
+	}
+	#ticket:hover {
+	  left: 0;
+	}
+	body{
+	  margin: 0px;
+	  padding: 0px;
+	}
